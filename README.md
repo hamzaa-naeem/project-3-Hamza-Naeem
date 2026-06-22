@@ -1,35 +1,43 @@
-🚖 Pakride
+# 🚖 Pakride
 
 A modern, scalable ride booking platform built for seamless passenger and route management.
 
-🚀 Overview
+# 🚀 Overview
 
 PakRide is a full-stack ride booking system designed to simplify transportation management. It allows users to book rides, manage tickets, view routes, and handle complaints through a smooth and intuitive interface.
 
 Built using the MERN stack, PakRide demonstrates real-world system design with authentication, role-based access, and admin analytics.
 
-🌐 Live Features
+# 🌐 Live Features
 
 👤 User Authentication (Register / Login)
-🚗 Ride Booking System
+
+🚗 Ride Booking System 
+
 🎫 Ticket Management & History
+
 🗺️ Dynamic Route Management
+
 🧑‍💼 Admin Dashboard
+
 📊 Analytics & Charts
+
 💬 Complaint & Support System
+
 🔐 Protected Routes (Role-based access)
+
 🧱 Tech Stack
 
 
 
-Frontend
+# Frontend
 
 React (Vite)
 Context API
 Axios
 CSS Modules
 
-Backend
+# Backend
 
 Node.js
 Express.js
@@ -39,28 +47,46 @@ JWT Authentication
 Middleware-based route protection
 
 
-📁 Project Architecture
+# 📁 Project Architecture
 
 pakride/
+
 │
+
 ├── server/              # Backend (REST API)
+
 │   ├── controllers/
+
 │   ├── models/
+
 │   ├── routes/
+
 │   ├── middleware/
+
 │   └── server.js
+
 │
+
 ├── src/                 # Frontend (React)
+
 │   ├── components/
+
 │   ├── pages/
+
 │   ├── services/
+
 │   ├── context/
+
 │   └── App.jsx
+
 │
+
 ├── package.json
+
 └── vite.config.js
 
-⚙️ Getting Started
+
+# ⚙️ Getting Started
 
 1️⃣ Clone the repository
 
@@ -95,7 +121,7 @@ npm run dev
 
 Homepage | Booking Page | Admin Dashboard
 
-🧠 System Design Highlights
+# 🧠 System Design Highlights
 
 RESTful API architecture
 Modular backend structure
@@ -104,16 +130,21 @@ Centralized state management
 Secure authentication flow
 
 
-📈 Future Improvements
+# 📈 Future Improvements
 
 💳 Online payment integration
+
 📍 Live GPS tracking
+
 📱 Mobile application (React Native)
+
 📩 Email/SMS notifications
+
 ☁️ Cloud deployment (AWS / Render)
 
-👨‍💻 Author
+# 👨‍💻 Author
 
 Hamza Naeem
+
 Full Stack Developer
 
